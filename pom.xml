@@ -16,7 +16,7 @@
 		<jstl.version>1.2</jstl.version>
 		<junit.version>4.11</junit.version>
 		<logback.version>1.0.13</logback.version>
-		
+
 		<jcl-over-slf4j.version>1.7.5</jcl-over-slf4j.version>
 	</properties>
 
@@ -36,35 +36,35 @@
 		</dependency>
 
 		<dependency>
-	<groupId>org.hibernate</groupId>
-	<artifactId>hibernate-entitymanager</artifactId>
-	<version>5.0.6.Final</version>
-</dependency>
-<dependency>
-	<groupId>dom4j</groupId>
-	<artifactId>dom4j</artifactId>
-	<version>1.6.1</version>
-</dependency>
-<dependency>
-	<groupId>org.hibernate</groupId>
-	<artifactId>hibernate-core</artifactId>
-	<version>5.0.6.Final</version>
-</dependency>
-<dependency>
-	<groupId>org.hibernate.common</groupId>
-	<artifactId>hibernate-commons-annotations</artifactId>
-	<version>5.0.1.Final</version>
-</dependency>
-<dependency>
-	<groupId>org.hibernate.javax.persistence</groupId>
-	<artifactId>hibernate-jpa-2.1-api</artifactId>
-	<version>1.0.0.Final</version>
-</dependency>
-<dependency>
-	<groupId>org.javassist</groupId>
-	<artifactId>javassist</artifactId>
-	<version>3.18.1-GA</version>
-</dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>5.0.6.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.0.6.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.common</groupId>
+			<artifactId>hibernate-commons-annotations</artifactId>
+			<version>5.0.1.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.javax.persistence</groupId>
+			<artifactId>hibernate-jpa-2.1-api</artifactId>
+			<version>1.0.0.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>org.javassist</groupId>
+			<artifactId>javassist</artifactId>
+			<version>3.18.1-GA</version>
+		</dependency>
 
 		<dependency>
 			<groupId>mysql</groupId>
@@ -72,8 +72,8 @@
 			<version>${connectorJDriver.version}</version>
 		</dependency>
 
-		
-		
+
+
 		<!-- Spring Core -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -117,14 +117,17 @@
 			<artifactId>jstl</artifactId>
 			<version>${jstl.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-jaxrs</artifactId>
 			<version>2.2.1.GA</version>
 		</dependency>
-		
-
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
